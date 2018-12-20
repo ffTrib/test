@@ -5,4 +5,15 @@
 5.git commit -m "some init msg"
 
 git .ignore file #add compiled dir like __pycache__ - only source files in repo!
+
+# to checkout old versions: 
 git log
+git checkout "sha"
+#to jump back
+git checkout master
+
+# open new branch
+git checkout -b newbranch
+# make a few changes and commit
+git show-branch newbranch master # to get overview
+git merge newbranch # to merge together (changes made in master AND new branch! For conflicts checkout rebasing!)
