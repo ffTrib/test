@@ -1,9 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec 20 10:20:42 2018
+import myname
 
-@author: fabian
-"""
-
-print("Hello git")
+name = myname.get_name()
+print("hello {}".format(name))
